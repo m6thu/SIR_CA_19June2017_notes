@@ -1,0 +1,22 @@
+---
+title: "SIR CA Notes"
+date: "6/18/2017"
+output: html_document
+---
+
+## Comparison of baseline using simplified functions
+
+For duration of infection = 2 timesteps
+Calculated probability of infection from R0
+
+| | |
+:---:|:---:|:---:|
+R0 | 
+20 | ![](R020_di5_simplified.png) | ![](R020_di5_simplified_mass.png) |
+10 | ![](R010_di5_simplified.png) | ![](R010_di5_simplified_mass.png) |
+5 | ![](R05_di5_simplified.png) | ![](R05_di5_simplified_mass.png) |
+4 | ![](R04_di5_simplified.png) | ![](R04_di5_simplified_mass.png) |
+3 | ![](R03_di5_simplified.png) | ![](R03_di5_simplified_mass.png) |
+2 | ![](R02_di5_simplified.png) | ![](R02_di5_simplified_mass.png) |
+
+Slight difference still exists after getting rid of kernels.
